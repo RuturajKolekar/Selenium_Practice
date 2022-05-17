@@ -15,6 +15,7 @@ public class Date_Picker_1 {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.redbus.in/");
+		driver.manage().window().maximize();
 		
 		String year="2022";
 		String month="july";
